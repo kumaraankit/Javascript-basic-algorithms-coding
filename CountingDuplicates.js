@@ -15,3 +15,10 @@ function duplicateCount(text){
 
   let result=duplicateCount("Ankaitaiiiiiinnnnn")
   console.log(result)
+
+
+  //--------------Alternative approach for the same problem---------
+//   function duplicateCount(text){
+//     return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+//   }
+
