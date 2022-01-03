@@ -11,3 +11,8 @@ var isSquare = function(n){
   }
 
   console.log(`checking if a number is a sqaure------- ${isSquare(4)}`)
+
+  // Alternative solution by using Math.sqrt
+//   var isSquare = function(n){
+//     return n < 0 ? false : Math.sqrt(n) % 1 === 0
+//   }
